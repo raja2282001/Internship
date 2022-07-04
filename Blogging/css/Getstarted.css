@@ -1,0 +1,104 @@
+body{
+
+}
+*{
+
+}
+.home{
+    width: 3%;
+}
+.home a{
+    text-decoration: none;
+}
+.home a p{
+    color: #000000a8;
+}
+.sin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 87px;
+}
+.sin .title{
+
+}
+.sin .title h4{
+    font-size: 44px;
+}
+.sin .par{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sin .par p{
+    margin-block: 1px;
+    color: #000000a8;
+}
+.sin .img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.sin .img1 .imgface{
+    opacity: o.6;
+}
+.sin .img1 .imgface a{
+
+}
+.sin .img1 .imgface a img{
+    width: 125px;
+}
+.sin .img1 .imgface:hover{
+    opacity: 24.7;
+}
+.sin .img1 .imggoogle{
+
+}
+.sin .img1 .imggoogle a{
+
+}
+.sin .img1 .imggoogle a img{
+    width: 161px;
+    opacity: 0.7;
+}
+.sin .img1 .imggoogle a img:hover{
+    opacity: 24.7;
+}
+.sin .img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.sin .img2 .imgface2{
+    opacity: o.6;
+}
+
+.sin .img2 .imgface2 a{
+    text-decoration: none;
+}
+.sin .img2 .imgface2 a img{
+    width: 125px;
+}
+.sin .img2 .imgface2:hover{
+    opacity: 24.7;
+}
+.sin .img2 .imggoogle2{
+
+}
+.sin .img2 .imggoogle2 a{
+    text-decoration: none;
+}
+.sin .img2 .imggoogle2 a img{
+    width: 161px;
+    opacity: 0.7;
+}
+.sin .img2 .imggoogle2 a img:hover{
+    opacity: 24.7;
+}
+

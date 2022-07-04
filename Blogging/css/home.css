@@ -1,0 +1,313 @@
+body{
+
+}
+*{
+
+}
+.all{
+    background-color: darkgray;
+    padding: 50px;
+}
+.tope{
+    display: flex;
+    align-items: flex-start;
+}
+.tope .left{
+    font-size: 36px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 18px;
+}
+.tope .left h2{
+    margin-block: 2px;
+}
+.tope .right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: end;
+}
+.tope .right .rightup{
+    display: flex;
+    align-items: center;
+}
+.tope .right .rightup .but{
+    width: 85px;
+}
+.tope .right .rightup .but a{
+    text-decoration: none;
+}
+.tope .right .rightup .but a h5{
+    border: 2px solid black;
+    font-size: 13px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+}
+.tope .right .rightup .but a h5:hover{
+    color: aqua;
+}
+.tope .right .rightup .serch{
+    margin: -13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tope .right .rightup .serch #text{
+    width: 43%;
+    border-radius: 5px;
+}
+.tope .right .rightup .serch i{
+    background: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.tope .right .rightdown{
+
+}
+.tope .right .rightdown .counters{
+    margin: 2px 10px;
+}
+.tope .right .rightdown .counters .container{
+    display: flex;
+    border: 2px;
+    margin: 2px 5px;
+}
+.tope .right .rightdown .counters .container div{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 5px;
+    height: 17px;
+    border: 2px solid black;
+    background-color: white;
+}
+.tope .right .rightdown .counters .container div h3{
+    
+}
+.tope .right .rightdown .counters .container div .counter{
+    border: 2px;
+}
+
+/* ///////////////////////// */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000070;
+    margin-block: 21px;
+    flex-wrap: wrap;
+}
+.nav a{
+    text-decoration: none;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+.nav a p{
+    margin: 9px;
+    padding: 3px 7px;
+    color: white;
+    background-color: #00000052;
+    border-radius: 6px;
+}
+.nav a p:hover{
+    color: aqua;
+}
+
+ hr{
+    border-width: 3px;
+    background-color: #00000070;
+}
+/* ///////////////// */
+
+.contain{
+    display: flex;
+    background-color: #00000052;
+    padding: 16px;
+}
+@media (max-width:1118px) {
+    .contain{
+        flex-wrap: wrap;
+    }
+    .contain .left{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contain .right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.contain .left{
+    padding-block: 17px;
+    margin: 7px;
+}
+.contain .left .img{
+
+}
+.contain .left .img img{
+    width: 343px;
+    height: 180px;
+}
+.contain .left .topic{
+
+}
+.contain .left .topic h4{
+
+}
+.contain .left .topic p{
+    color: #00000073;
+}
+.contain .left .tope h5{
+
+}
+.contain .left .tope h6{
+
+}
+.contain .mid{
+    margin: 7px;
+}
+.contain .mid .mid1{
+    display: flex;
+    padding-block: 33px;
+}
+.contain .mid .mid1 .img{
+
+}
+.contain .mid .mid1 .img img{
+    width: 102px;
+}
+.contain .mid .mid1 p{
+    margin-block: -4px;
+    color: #00000073;
+}
+.contain .right{
+    margin: 7px;
+    padding-block: 17px;
+}
+.contain .right .img{
+
+}
+.contain .right .img img{
+    width: 343px;
+    height: 180px;
+}
+.contain .right .topic{
+
+}
+.contain .right .topic h4{
+
+}
+.contain .right .topic p{
+    color: #00000073;
+}
+.contain .right .topic a{
+    text-decoration: none;
+}
+.contain .right .topic a .ridmore{
+    margin-block: -11px;
+    color: black;
+}
+.contain .right .topic a .ridmore:hover{
+    color: aqua;
+}
+.contain .right .topic h5{
+
+}
+.contain .right .topic h6{
+
+}
+.wel img{
+    width: 79%;
+    height: 307px;
+}
+#wel{
+    margin-block: -217px 33px;
+}
+.wel .hed1{
+    padding: 4px;
+}
+.wel .hed1 h3{
+    margin: 19px 70px;
+}
+.wel .hed2{
+    padding: 4px;
+
+}
+.wel .hed2 h3{
+    margin: -23px 70px;
+}
+.wel .par1{
+    padding: 4px;
+
+}
+.wel .par1 p{
+    margin: 19px 70px;
+}
+.wel .par2{
+    padding: 4px;
+
+}
+.wel .par2 p{
+    margin: -23px 70px;
+}
+.last{
+    background-color: #00000087;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.last .nave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.last .nave a{
+    text-decoration: none;
+}
+.last .nave a p{
+    margin-block: -6px;
+    padding: 12px;
+    color: white;
+}
+.last .nave a p:hover{
+    color: aqua;
+}
+.last .follows{
+    font-size: 16px;
+}
+.last .follows p{
+
+}
+.last .img{
+
+}
+.last .img a{
+    text-decoration: none;
+}
+.last .img a #aa{
+    height: 32px;
+    width: 47px;
+    margin: -5px;
+}
+.last .img a img{
+    width: 29px;
+    height: 24px;
+    margin: -1px;
+}
+.last .par{
+
+}
+.last .par p{
+
+}

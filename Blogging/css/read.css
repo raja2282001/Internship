@@ -1,0 +1,56 @@
+body{
+
+}
+*{
+
+}
+.titl{
+
+}
+.titl .hading{
+    display: flex;
+    padding: 36px;
+    flex-wrap: wrap;
+}
+.titl .hading .par{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.titl .hading .par h5{
+
+}
+.titl .hading .par p{
+
+}
+.titl .hading .par .img{
+    display: flex;
+}
+.titl .hading .par .img .img1{
+}
+.titl .hading .par .img .img1 img{
+    height: 66px;
+}
+.titl .hading .par .img .img2{
+
+}
+.titl .hading .par .img .img2 img{
+    
+}
+.titl .hading .img{
+    width: 50%;
+}
+.titl .hading .img #img{
+    width: 100%;
+    height: 87%;
+}
+.titl .paragraf{
+    padding: 36px;
+}
+.titl .paragraf div{
+
+}
+.titl .paragraf div p{
+
+}
